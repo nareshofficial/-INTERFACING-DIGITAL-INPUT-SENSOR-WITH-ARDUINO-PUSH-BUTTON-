@@ -61,31 +61,31 @@ FIGURE-02
 ## PROGRAM 
  
 
-``int led=4;
-int sensor;
-void setup()
-{
-  pinMode(led, OUTPUT);
-  Serial.begin(9600);
-}
+                                            ``int led=4;
+                                              int sensor;
+                                              void setup()
+                                              {
+                                               pinMode(led, OUTPUT);
+                                               Serial.begin(9600);
+                                               }
 
-void loop()
-{
-  sensor=analogRead(A0);
-  Serial.print("sensor = ");
-  Serial.println(sensor);
-  delay(500);
-  if(sensor>500){
-    digitalWrite(led,HIGH);
-    delay(50);
-    digitalWrite(led,LOW);
-    delay(50);
-  }
-  else{
-    digitalWrite(led,LOW);
-    delay(50);
-  }
-}```
+                                              void loop()
+                                              {
+                                             sensor=analogRead(A0);
+                                             Serial.print("sensor = ");
+                                             Serial.println(sensor);
+                                             delay(500);
+                                             if(sensor>500){
+                                             digitalWrite(led,HIGH);
+                                             delay(50);
+                                             digitalWrite(led,LOW);
+                                             delay(50);
+                                             }
+                                             else{
+                                            digitalWrite(led,LOW);
+                                            delay(50);
+                                             }
+                                               }```
 
 
 
