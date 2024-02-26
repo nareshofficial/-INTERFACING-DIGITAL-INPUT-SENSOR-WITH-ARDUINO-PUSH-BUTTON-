@@ -51,7 +51,8 @@ FIGURE-02
 
 ## CIRCUIT DIAGRAM 
 
-![Screenshot 2024-02-25 184233](https://github.com/nareshofficial/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/155141830/844047d3-e36e-45dc-9ba3-57345e85a18b)
+![163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d](https://github.com/nareshofficial/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/155141830/349d3d92-5e81-4c88-9d24-897c7b496000)
+
 
 
 
@@ -59,8 +60,8 @@ FIGURE-02
 
 ## PROGRAM 
  
-```
-int led=4;
+
+```int led=4;
 int sensor;
 void setup()
 {
@@ -84,8 +85,8 @@ void loop()
     digitalWrite(led,LOW);
     delay(50);
   }
-}
-```
+}```
+
 
 
 
@@ -101,6 +102,12 @@ void loop()
 
 ## OUTPUT OF SIMULATION :
 
+![191555855-52e1dcfd-2da0-41ec-a433-ec93d8a7ad2f](https://github.com/nareshofficial/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/155141830/fa1ff760-b621-40fb-9a5b-2d309b7ac779)
 
-![Screenshot 2024-02-25 182523](https://github.com/nareshofficial/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/155141830/c4121150-40f9-4259-8839-f9356ce58984)
+
+
+
+
+# REsult:
+thus we have interfaced a digital input and blink of LED upon activation
 
